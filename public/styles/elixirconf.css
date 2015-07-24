@@ -921,7 +921,7 @@ header.navigation .search-bar .search-and-submit button[type=submit] img {
   text-decoration: none;
   text-shadow: 0 1px 0 #3eda7d;
   background-clip: padding-box;
-  display: none;
+  /*display: none;*/
   font-size: 0.92593em;
   outline: none;
   margin-top: 0.5625em;
