@@ -28,7 +28,9 @@ input[type="submit"]:hover {
   background-color: #279051;
   color: white;
 }
-
+.auth {
+  font-size: 0.75em
+}
 body {
   -webkit-font-smoothing: antialiased;
   background-color: #ecf0f1;
