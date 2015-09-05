@@ -37,6 +37,17 @@ input[type="submit"]:hover {
   text-decoration: line-through;
 }
 
+h5.click-title {
+  cursor: pointer;
+}
+
+.track-plenum > div.description {
+  display: none;
+}
+.track > div.description {
+  display: none;
+}
+
 body {
   -webkit-font-smoothing: antialiased;
   background-color: #ecf0f1;
@@ -1067,6 +1078,28 @@ header.navigation .search-bar .search-and-submit button[type=submit] img {
   .this-is-not-a-table .row .event-info {
     float: left;
     width: 76%;
+  }
+  .this-is-not-a-table .row .event-info .track-plenum {
+    float: left;
+    width: 98%;
+    border-top: 1px solid #fff;
+    border-left: 1px solid #fff;
+    border-right: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+    background: #fafafa;
+    margin-right: 5px;
+    padding: 0 5px 0 5px;
+  }
+  .this-is-not-a-table .row .event-info .track {
+    float: left;
+    width: 48%;
+    border-top: 1px solid #fff;
+    border-left: 1px solid #fff;
+    border-right: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+    background: #fafafa;
+    margin-right: 5px;
+    padding: 0 5px 0 5px;
   }
 }
 .this-is-not-a-table .row .event-info .event-title {
