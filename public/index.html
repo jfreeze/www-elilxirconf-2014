@@ -1279,7 +1279,8 @@ MyApp.Repo.insert(model)
 |> handle_insert
 end
 
-defp handle_insert({:ok, model}) do
+defp handle_insert(
+  {:ok, model}) do
 # do insert things
 end
 defp handle_insert(
