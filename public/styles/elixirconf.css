@@ -920,7 +920,7 @@ header.navigation .search-bar .search-and-submit button[type=submit] img {
   padding: 1.125em;
   width: 100%;
 }
-@media screen and (min-width: 40em) {
+@media screen and (min-width: 80em) {
   .speakers .speaker figure figcaption {
     -webkit-transform: translate3d(0, 100%, 0);
     -moz-transform: translate3d(0, 100%, 0);
@@ -1002,7 +1002,7 @@ header.navigation .search-bar .search-and-submit button[type=submit] img {
   outline: none;
 }
 
-@media screen and (min-width: 40em) {
+@media screen and (min-width: 80em) {
   .no-touch .speakers figure:hover img,
   .speakers figure.cs-hover img {
     -webkit-transform: translate3d(0, -50px, 0);
@@ -1053,12 +1053,12 @@ header.navigation .search-bar .search-and-submit button[type=submit] img {
   display: table;
   clear: both;
 }
-@media screen and (min-width: 40em) {
+@media screen and (min-width: 80em) {
   .this-is-not-a-table .row {
     margin: 2.25em 4.5em;
   }
 }
-@media screen and (min-width: 40em) {
+@media screen and (min-width: 80em) {
   .this-is-not-a-table .row:first-child {
     margin: 3.375em 4.5em 2.25em;
   }
@@ -1077,14 +1077,14 @@ header.navigation .search-bar .search-and-submit button[type=submit] img {
   text-transform: uppercase;
   font-size: 125%;
 }
-@media screen and (min-width: 40em) {
+@media screen and (min-width: 80em) {
   .this-is-not-a-table .row .timespan {
     display: inline-block;
     float: left;
     width: 20%;
   }
 }
-@media screen and (min-width: 40em) {
+@media screen and (min-width: 80em) {
   .this-is-not-a-table .row .event-info {
     float: left;
     width: 80%;
@@ -1171,7 +1171,7 @@ header.navigation .search-bar .search-and-submit button[type=submit] img {
   margin-bottom: 2.25em;
   text-align: center;
 }
-@media screen and (min-width: 40em) {
+@media screen and (min-width: 80em) {
   #sponsors ul li {
     float: left;
     display: block;
@@ -1244,14 +1244,14 @@ header.navigation .search-bar .search-and-submit button[type=submit] img {
 #about .about-item ol.default {
   margin-bottom: 1.125em;
 }
-@media screen and (min-width: 40em) {
+@media screen and (min-width: 80em) {
   #about .about-item aside {
     float: left;
     margin-right: 9%;
     width: 27%;
   }
 }
-@media screen and (min-width: 40em) {
+@media screen and (min-width: 80em) {
   #about .about-item.code-of-conduct > div, #about .about-item.legal-details > div, #about .about-item.contact-information > div {
     margin-left: 36%;
   }
