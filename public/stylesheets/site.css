@@ -323,6 +323,10 @@ table {
   border-collapse: collapse;
   border-spacing: 0; }
 
+table.date tr td {
+  padding-left: 20px;
+  padding-right: 20px;
+}
 /* line 9, site.css.scss */
 body {
   font-family: 'Roboto', sans-serif; }
@@ -473,6 +477,9 @@ p, h1, h2, h3, h4 {
     display: block;
     padding-bottom: 15px;
   }
+  .cfp p {
+    text-align: center;
+  }
   p.restaurant {
     line-height: 1.1em;
     font-size: 100%;
@@ -603,7 +610,9 @@ p, h1, h2, h3, h4 {
 .wdw {
   font-weight: bold;
 }
-
+.in-wrapper p {
+  text-align: center;
+}
 @media (max-width: 800px) {
   /* line 191, site.css.scss */
   .menu-button {
