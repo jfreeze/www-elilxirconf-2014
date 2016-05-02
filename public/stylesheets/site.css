@@ -756,6 +756,46 @@ h1.training {
   padding-right: 5px;
 }
 
+table.tickets {
+  margin: 0 auto;
+}
+table.tickets tr th {
+  font-weight: 700;
+  font-size: 150%;
+  color: white;
+  padding: 4px 8px;
+  background-color: #382F3D;
+  border-left: 1px solid white;
+}
+table.tickets tr td {
+  font-weight: 300;
+  font-size: 115%;
+  color: #382F3D;
+  border: 1px solid #382F3D;
+  padding: 2px 4px;
+}
+table.tickets tr td.d {
+  text-align: left;
+}
+.cancellation {
+  max-width: 50em;
+  margin: 20px auto 20px auto;
+  text-align: left;
+}
+.cancellation h1 {
+  padding-top: 20px;
+  font-size: 120%;
+  color: #555;
+}
+.cancellation p {
+  text-align: left;
+  line-height: 1.2;
+  font-size: 100%;
+  color: #555;
+}
+
+
+
 @media (max-width: 800px) {
   /* line 191, site.css.scss */
   .menu-button {
