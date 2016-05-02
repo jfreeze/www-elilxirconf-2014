@@ -751,6 +751,8 @@ h1.training {
 
   /* line 194, site.css.scss */
   .homepage-container {
+    padding-left: 5px;
+    padding-right: 5px;
     background-color: #4b3c55; }
     /* line 196, site.css.scss */
     .homepage-container .pyramid-triangle {
