@@ -521,6 +521,17 @@ p, h1, h2, h3, h4 {
     font-size: 20px;
     align-self: center; }
 
+  .event-information .trainers {
+    width: 100%;
+    min-height: 240px;
+  }
+  .event-information .trainers .train {
+    float: left;
+    max-width: 33%;
+    min-height: 240px;
+    margin: 10px;
+  }
+
 /* line 143, site.css.scss */
 .white-bg {
   background-color: #ecf0f1;
@@ -613,6 +624,126 @@ p, h1, h2, h3, h4 {
 .in-wrapper p {
   text-align: center;
 }
+
+.grid a {
+  display:block;
+  background-color: #fff;
+  background-color: #ecf0f1;
+  color: black;
+  border: none;
+}
+
+.spkrgrid-item .name {
+  font-weight: 700;
+  font-size: 115%;
+}
+.spkrgrid-item .title {
+  font-weight: 400;
+  font-style: italic;
+  color: #382F3D;
+}
+
+
+.grid a:hover {
+  background-color: #ecf0f1;
+  color: black;
+  border: none;
+}
+
+.grid {
+}
+
+.grid-row {
+  display: flex;
+  justify-content: center;
+  height: 340px;
+}
+/*
+.grid-row:nth-child(odd) {
+  background-color: #ffe;
+}
+*/
+
+.grid-item {
+  flex: 300px 300px 300px;
+  margin: 20px;
+}
+
+/* Doesn't work in Safari */
+.spkrgrid {
+  display: flex;
+  flex-direction: column;
+}
+.spkrgrid-item {
+  flex: 100%;
+}
+
+.speaker {
+  margin: 20px 0 60px 30px;
+  padding-bottom: 20px;
+  border-bottom: 2px solid #B896C6;
+}
+
+.speaker .title {
+  font-weight: 700;
+  font-size: 150%;
+  font-style: italic;
+  display: block;
+  color: #564761;
+  padding-left: 10px;
+}
+
+h1.training {
+  padding-top: 10px;
+  padding-bottom: 4px;
+  font-size: 95%;
+}
+.speaker .section {
+  max-width: 40em;
+  padding-left: 10px;
+}
+
+.speaker img {
+  box-shadow: 4px 4px 4px #888888;
+}
+
+.speaker .name {
+  font-weight: 700;
+  font-size: 150%;
+  display: block;
+}
+
+.speaker .company {
+  font-weight: 300;
+  font-style: italic;
+  display: block;
+}
+
+.speaker .github {
+  font-weight: 400;
+  display: block;
+}
+.speaker .github:before {
+  content: "github: "
+}
+
+.speaker .twitter {
+  font-weight: 400;
+  display: block;
+}
+.speaker .twitter:before {
+  content: "@"
+}
+
+.speaker .bio {
+  margin: 20px 0 0 10px;
+  max-width: 60em;
+  font-size: 125%;
+  line-height: 1.3em;
+  color: #564761;
+}
+
+
 @media (max-width: 800px) {
   /* line 191, site.css.scss */
   .menu-button {
