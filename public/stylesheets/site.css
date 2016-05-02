@@ -480,6 +480,10 @@ p, h1, h2, h3, h4 {
   .cfp p {
     text-align: center;
   }
+
+  .registration p {
+    text-align: center;
+  }
   p.restaurant {
     line-height: 1.1em;
     font-size: 100%;
