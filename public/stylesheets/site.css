@@ -782,6 +782,7 @@ table.tickets tr td.d {
   max-width: 50em;
   margin: 20px auto 20px auto;
   text-align: left;
+  padding: 0 4px;
 }
 .cancellation h1 {
   padding-top: 20px;
@@ -796,6 +797,20 @@ table.tickets tr td.d {
 }
 
 
+.bb {
+  font-size: 175%;
+}
+.cfp-par {
+  margin: 0 auto;
+  max-width: 50em;
+  padding: 0 4px;
+}
+.cfp-par p {
+  text-align: left;
+}
+.cfp-par p.center {
+  text-align: center;
+}
 
 @media (max-width: 800px) {
   /* line 191, site.css.scss */
