@@ -757,6 +757,10 @@ h1.training {
   padding-right: 5px;
 }
 
+.tbl {
+  margin-left: 4px;
+  margin-right: 4px;
+}
 table.tickets {
   margin: 0 auto;
 }
