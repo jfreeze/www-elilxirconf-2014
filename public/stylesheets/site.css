@@ -816,6 +816,16 @@ table.tickets tr td.d {
   text-align: center;
 }
 
+a.normal, a:active.normal, a:hover.normal, a:visited.normal {
+  display: inline-block;
+  background-color: #ECF0F1;
+  border: none;
+  color: #3333CC;
+  margin: 0;
+  padding: 0;
+}
+
+
 @media (max-width: 800px) {
   /* line 191, site.css.scss */
   .menu-button {
