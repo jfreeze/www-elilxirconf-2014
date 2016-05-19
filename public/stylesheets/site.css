@@ -347,16 +347,13 @@ a {
 p, h1, h2, h3, h4 {
   margin: 0px; }
 
-/* line 26, site.css.scss */
 .wrapper {
   width: 90%;
   max-width: 1200px;
   margin: auto; }
 
-/* line 31, site.css.scss */
 .in-wrapper {
   width: 40%;
-  max-width: 500px;
   margin: auto;
   margin-bottom: 30px;
 }
@@ -468,7 +465,7 @@ p, h1, h2, h3, h4 {
 
   }
   .event-information p {
-    max-width: 55em;
+    max-width: 40em;
     line-height: 1.5em;
     margin-bottom: 40px;
     font-size: 125%;
