@@ -21,6 +21,10 @@ get '/coc' do
   send_file File.join(settings.public_folder, '2016/coc.html')
 end
 
+get '/2016/venue' do
+  send_file File.join(settings.public_folder, '2016/venue.html')
+end
+
 get '/2014' do
   send_file File.join(settings.public_folder, '2014.html')
 end

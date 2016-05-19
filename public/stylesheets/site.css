@@ -757,6 +757,13 @@ h1.training {
   padding-right: 5px;
 }
 
+.restaurants {
+  margin: 25px 10px 20px 20px;
+}
+.restaurants h4 {
+  padding-top: 5px;
+}
+
 .tbl {
   margin-left: 4px;
   margin-right: 4px;
