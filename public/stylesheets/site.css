@@ -977,20 +977,40 @@ table.tickets tr td.d {
   margin-bottom: 0;
 }
 
-#elx-reserve .hotel-info .more-info a {
+.last-button a {
   display: block;
   text-align: center;
   color: #755888;
   font-weight: 800;
-  font-size: 25px;
+  font-size: 20px;
   margin-top: 20px;
 }
 
+#elx-sponsors {
+  background-color: white;
+  padding: 70px 0px;
+}
+
+#elx-sponsors .nice-title {
+  margin-bottom: 20px;
+}
+#elx-sponsors .type-sponsor:first-child {
+  margin-top: 0;
+}
+
+#elx-sponsors .type-sponsor:last-child{
+  margin-bottom: 0;
+}
+#elx-sponsors .type-sponsor{
+  overflow: hidden;
+  margin: 100px;
+}
 
 
 #elx-speakers {
   background-color: white;
   padding: 70px 0px;
+  border-bottom: 1px solid #ecf0f1;
 }
 #elx-speakers .speaker {
   display: inline-block;
@@ -1006,6 +1026,26 @@ table.tickets tr td.d {
     font-size: 20px;
     font-weight: 700;
     line-height: 23px;
+}
+
+#elx-footer .block a {
+  font-size: 20px;
+  color: white;
+}
+#elx-footer .block:nth-child(2){
+  margin: 0 5px;
+}
+#elx-footer .block span {
+  font-weight: 300;
+}
+#elx-footer .block span b {
+  font-weight: 700;
+}
+#elx-footer .block {
+  padding: 70px 0px;
+  display: inline-block;
+  vertical-align: middle;
+  color: white;
 }
 
 .big-speaker .tear{
@@ -1073,6 +1113,9 @@ table.tickets tr td.d {
 
 .mt{
   margin-top: 50px;
+}
+.mb{
+  margin-bottom: 50px;
 }
 
 .bb {
