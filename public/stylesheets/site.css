@@ -57,7 +57,6 @@ html {
   overflow: hidden;
   height: 100%;
 
-  font-family: sans-serif;
   /* 1 */
   -webkit-text-size-adjust: 100%;
   /* 2 */
@@ -72,6 +71,7 @@ body {
   margin: 0;
   height: 100%;
   overflow: auto;
+  color: #372f3c;
 }
 
 /* ==========================================================================
@@ -216,7 +216,6 @@ button,
 input,
 select,
 textarea {
-  font-family: inherit;
   /* 1 */
   font-size: 100%;
   /* 2 */
@@ -329,7 +328,8 @@ table.date tr td {
 }
 /* line 9, site.css.scss */
 body {
-  font-family: 'Roboto', sans-serif; }
+  font-family: 'Open Sans', sans-serif;
+}
 
 /* line 12, site.css.scss */
 img {
@@ -344,8 +344,13 @@ a {
   text-decoration: none; }
 
 /* line 22, site.css.scss */
+body h3 {
+  font-family: 'Open Sans', sans-serif;
+
+}
 p, h1, h2, h3, h4 {
-  margin: 0px; }
+  margin: 0px;
+}
 
 .wrapper {
   width: 90%;
@@ -435,8 +440,7 @@ p, h1, h2, h3, h4 {
 
 /* line 113, site.css.scss */
 .event-information {
-  top: -5px;
-  background-color: #ecf0f1;
+  background-color: #fff;
   color: #382f3d;
   position: relative;
   padding: 50px 0px;
@@ -454,7 +458,6 @@ p, h1, h2, h3, h4 {
   }
   .event-information h3 {
     color: #564761;
-    font-size: 28px;
     margin-bottom: 15px;
   }
   .event-information img {
@@ -803,6 +806,86 @@ table.tickets tr td.d {
   font-size: 100%;
   color: #555;
 }
+
+.nice-title {
+  font-size: 40px;
+  font-weight: 800;
+}
+.nice-title.nice-title-purpure{
+  color: #7a5686;
+}
+
+.nice-paragraph {
+  color: #372f3c;
+  font-weight: 100;
+  font-size: 20px;
+  font-weight: 300;
+}
+.nice-paragraph strong {
+  color: #785786;
+  font-weight: 600;
+}
+
+#elx-registration {
+  position: relative;
+  background-color: white;
+  padding: 80px 0px;
+  border-top: 1px solid #ecf0f1;
+  font-size: 20px;
+}
+
+#elx-registration .nice-title {
+  margin-bottom: 50px;
+}
+
+#elx-registration .prices-table{
+  text-align: left;
+  margin: 60px 0px;
+}
+
+#elx-registration .prices-table .header-table {
+  background-color: #785786;
+  color: white;
+  padding: 20px;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+#elx-registration .prices-table .table-row {
+  padding: 20px;
+  font-size: 20px;
+  border-left: 1px solid #ecf0f1;
+  border-right: 1px solid #ecf0f1;
+}
+#elx-registration .prices-table .table-row:last-child {
+  border-bottom: 5px solid #4f3856;
+}
+
+#elx-registration .prices-table .bb-table-row {
+  border-bottom: 1px solid #ecf0f1;
+  font-weight: bold;
+}
+
+#elx-registration .cancelation-policy {
+  text-align: left;
+}
+#elx-registration .cancelation-policy h4 {
+  margin-bottom: 25px;
+}
+
+#elx-registration .cancelation-policy .refund-rules {
+  list-style: none;
+  padding: 0px;
+  margin: 0px;
+  margin: 30px 0px;
+}
+
+#elx-registration .cancelation-policy .refund-rules li {
+  font-weight: 700;
+  margin: 20px 0px;
+}
+
+
 
 
 .bb {
