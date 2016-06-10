@@ -1,0 +1,25 @@
+{
+  "name": "elixirconf",
+  "authors": [
+    "echavezNS <echavez@nearsoft.com>"
+  ],
+  "description": "Elixirconf frontend dependencies",
+  "main": "",
+  "moduleType": [],
+  "keywords": [
+    "elixirconf"
+  ],
+  "license": "MIT",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "foundation-sites": "^6.2.3",
+    "jquery": "^2.2.4"
+  }
+}
