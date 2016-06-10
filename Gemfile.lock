@@ -17,7 +17,7 @@ GEM
     em-websocket (0.5.1)
       eventmachine (>= 0.12.9)
       http_parser.rb (~> 0.6.0)
-    eventmachine (1.0.3)
+    eventmachine (1.2.0.1)
     execjs (2.2.1)
     ffi (1.9.3)
     foreman (0.74.0)
@@ -104,3 +104,9 @@ DEPENDENCIES
   neat
   sass (>= 3.3.alpha)
   sinatra
+
+RUBY VERSION
+   ruby 2.2.4p230
+
+BUNDLED WITH
+   1.12.5
