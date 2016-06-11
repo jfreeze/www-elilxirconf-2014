@@ -43,4 +43,40 @@ $(document).ready(function(){
     $(".navbar").toggleClass('active');
   });
 
+
+  function mapinit(){
+
+
+
+    var mapa = document.getElementById("mapframe");
+
+    var latlong = new google.maps.LatLng("28.3674646", "-81.5628278"),
+
+    mapOptions = {
+      center: latlong,
+      zoom: 12,
+      scrollwheel: false,
+      navigationControl: false,
+      mapTypeId: google.maps.MapTypeId.ROADMAP,
+      mapTypeControl: false
+    },
+    map = new google.maps.Map(mapa,mapOptions);
+
+    var image = '/images2016/pin.png';
+    var marker = new google.maps.Marker({
+      position: latlong,
+      map: map,
+      icon: image
+    });
+
+    var currCenter = map.getCenter();
+    google.maps.event.addDomListener(mapa, 'resize', function() {
+      map.setCenter(currCenter);
+    });
+
+
+  }
+
+  mapinit();
+
 });
