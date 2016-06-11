@@ -12,6 +12,7 @@
     <link rel="stylesheet" href="/bower_components/foundation-sites/dist/foundation.min.css">
     <link rel="stylesheet" href="/bower_components/font-awesome/css/font-awesome.css">
     <link href="/stylesheets/site.css" rel="stylesheet" />
+    <link href='https://api.mapbox.com/mapbox-gl-js/v0.20.0/mapbox-gl.css' rel='stylesheet' />
   </head>
 
   <body class="index">
@@ -57,35 +58,28 @@
     <img src="/images2016/wavies.png" alt="Wavies" />
   </div>
 
-
-  <div class="event-information">
+  <section id="elx-event">
     <div class="row">
-      <div class="large-12 columns">
-
-        <div class="in-wrapper">
-          <img src="/images2016/pin.png" alt="Pin" />
-          <h4 class="place">WALT DISNEY WORLD SWAN &amp; DOLPHIN RESORTS</h4>
-          <p class="city">
-            Orlando, FL
-          </p>
-          <div class="event-date">
-            <div class="event-year">
-              <img src="/images2016/calendar.png" alt="Calendar icon" />
-              <p>
-                2016
-              </p>
-            </div>
-
-          </div>
-          <p>
-            ElixirConf is a conference for Elixir, OTP, Web and Embedded developers from around the world. Focused on advancing the Elixir programming language and the communities surrounding it, ElixirConf brings together developers, from novice to experienced, to discuss, collaborate, and socialize.
-          </p>
+      <div class="large-9 large-centered columns">
+        <div class="nice-calendar">
+          <img src="/images2016/calendar.png" alt="Calendar icon" />
         </div>
+        <h5 class="nice-subtitle nice-title-purpure">Aug 31 &amp; Sep 1,2</h5>
+        <h3 class="nice-title nice-title-purpure">WALT DISNEY WORLD</h3>
+        <h3 class="nice-title nice-title-purpure">SWAN &amp; DOLPHIN RESORTS</h3>
+        <h5 class="nice-subtitle nice-title-purpure">Orlando, FL</h5>
+        <div class="nice-pin">
+          <img src="/images2016/pin.png" alt="Pin" />
+        </div>
+        <div id="map"></div>
+        <p class="nice-paragraph">
+          <strong>ElixirConf</strong> is a conference for Elixir, OTP, Web and Embedded developers
+          from around the world. Focused on advancing the Elixir programming language and the communities
+          surrounding it, ElixirConf brings together developers, from novice to experienced, to discuss, collaborate, and socialize.
+        </p>
       </div>
     </div>
-  </div>
-
-
+  </section>
 
   <section id="elx-registration">
     <div class="row">
@@ -540,5 +534,15 @@
 
     <script src="/javascripts/jquery-1.12.0.min.js"></script>
     <script src="/javascripts/all.js"></script>
+    <script src="https://api.mapbox.com/mapbox-gl-js/v0.20.0/mapbox-gl.js"></script>
+    <script type="text/javascript">
+      mapboxgl.accessToken = 'pk.eyJ1IjoicmdlY2hhdmFycmlhIiwiYSI6Inc4bTR1NlkifQ.GaI-YI-IEZwrB1nQNAmqzg';
+        var map = new mapboxgl.Map({
+            container: 'map',
+            style: 'mapbox://styles/rgechavarria/cip927n7z0012b7nf5a0ql7me',
+            zoom: 15,
+        });
+        map.setCenter([-81.5628278, 28.3674646]);
+    </script>
   </body>
 </html>
