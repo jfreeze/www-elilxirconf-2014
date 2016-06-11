@@ -54,7 +54,7 @@ $(document).ready(function(){
 
     mapOptions = {
       center: latlong,
-      zoom: 14,
+      zoom: 12,
       scrollwheel: false,
       navigationControl: false,
       mapTypeId: google.maps.MapTypeId.ROADMAP,
