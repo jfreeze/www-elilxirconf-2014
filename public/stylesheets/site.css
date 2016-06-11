@@ -1048,6 +1048,18 @@ table.tickets tr td.d {
   color: white;
 }
 
+#restaurants h3 {
+  text-align: center;
+}
+
+#restaurants ul {
+  list-style: none;
+}
+
+#restaurants ul li {
+  padding-bottom: 1em;
+}
+
 .big-speaker .tear{
   width: 10em;
   height: 10em;
