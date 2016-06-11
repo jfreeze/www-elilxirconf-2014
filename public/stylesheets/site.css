@@ -1053,10 +1053,38 @@ table.tickets tr td.d {
 }
 #elx-sponsors .type-sponsor{
   overflow: hidden;
-  margin: 100px;
+  margin: 60px;
+}
+
+#elx-sponsors .type-sponsor img{
+  margin: 20px;
+  display: inline-block;
+}
+#elx-sponsors .type-sponsor.platinum-sponsor img{
+  width: 30%;
+}
+#elx-sponsors .type-sponsor.gold-sponsor img{
+  width: 25%;
+}
+#elx-sponsors .type-sponsor.silver-sponsor img{
+  width: 20%;
+}
+#elx-sponsors .type-sponsor.supporters-sponsor img{
+  width: 15%;
 }
 
 
+#elx-speakers .trainers .row:after{
+  content: "";
+  width: 20px;
+  height: 3px;
+  background-color: #7a5686;
+  display: block;
+  margin: 20px auto;
+}
+#elx-speakers .trainers .row:last-child:after{
+  display: none;
+}
 #elx-speakers {
   background-color: white;
   padding: 70px 0px;
