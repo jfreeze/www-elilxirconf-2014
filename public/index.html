@@ -11,10 +11,25 @@
     <link rel="shortcut icon" type="image/png" href="/images2016/favicon.png" />
     <link rel="stylesheet" href="/bower_components/foundation-sites/dist/foundation.min.css">
     <link rel="stylesheet" href="/bower_components/font-awesome/css/font-awesome.css">
+    <link rel="stylesheet" href="bower_components/pure-css-modal/css/modal.css" media="screen" title="no title" charset="utf-8">
     <link href="/stylesheets/site.css" rel="stylesheet" />
   </head>
 
   <body class="index">
+    <!-- Small modal -->
+    <div class="modal">
+      <input id="modal-trigger-full" class="checkbox" type="checkbox">
+      <div class="modal-overlay">
+        <label for="modal-trigger-full" class="o-close"></label>
+        <div class="modal-wrap a-center full from-bottom">
+          <label for="modal-trigger-full" class="close">&#10006;</label>
+          <div id="info-speaker">
+
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- End Modal -->
     <header class="top-section">
       <div class="wrapper">
         <div class="logo">
@@ -272,7 +287,7 @@
                       <div class="helper-rotate">
                         <a href="#"><i class="fa fa-github"></i></a>
                         <a href="#"><i class="fa fa-twitter"></i></a>
-                        <a href="#"><i class="fa fa-info"></i></a>
+                        <a href="#" class="show-speaker-info" data-speaker="jose"><i class="fa fa-info"></i></a>
                       </div>
                     </div>
                   </div>
@@ -292,7 +307,7 @@
                       <div class="helper-rotate">
                         <a href="#"><i class="fa fa-github"></i></a>
                         <a href="#"><i class="fa fa-twitter"></i></a>
-                        <a href="#"><i class="fa fa-info"></i></a>
+                        <a href="#" class="show-speaker-info" data-speaker="chris"><i class="fa fa-info"></i></a>
                       </div>
                     </div>
                   </div>
@@ -312,7 +327,7 @@
                       <div class="helper-rotate">
                         <a href="#"><i class="fa fa-github"></i></a>
                         <a href="#"><i class="fa fa-twitter"></i></a>
-                        <a href="#"><i class="fa fa-info"></i></a>
+                        <a href="#" class="show-speaker-info" data-speaker="bruce"><i class="fa fa-info"></i></a>
                       </div>
                     </div>
                   </div>
@@ -882,9 +897,9 @@
           </div>
         </div>
       </div>
-      <div class="last-button">
+      <!-- <div class="last-button">
         <a href="#">SEE FULL LIST</a>
-      </div>
+      </div> -->
     </div>
   </section>
 

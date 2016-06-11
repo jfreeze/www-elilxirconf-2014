@@ -373,6 +373,13 @@ body h3 {
   border-radius: 50%;
 }
 
+.modal .modal-wrap {
+  transition: all 0.5s cubic-bezier(0.2, 1, 0.3, 1);
+  background-color: rgba(255,255,255,0.9);
+}
+.modal .modal-overlay .close {
+  color: #7a5686;
+}
 
 
 .coverimage{

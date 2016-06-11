@@ -44,9 +44,20 @@ $(document).ready(function(){
   });
 
 
+  $(".show-speaker-info").click(function(e){
+    e.preventDefault();
+
+    var speaker = $(this).data("speaker");
+
+    $( "#info-speaker" ).load( "/2016/speakers/"+speaker+".html" );
+
+    $("#modal-trigger-full").prop("checked", true);
+    console.log(speaker);
+
+  });
+
+
   function mapinit(){
-
-
 
     var mapa = document.getElementById("mapframe");
 
