@@ -12,7 +12,6 @@
     <link rel="stylesheet" href="/bower_components/foundation-sites/dist/foundation.min.css">
     <link rel="stylesheet" href="/bower_components/font-awesome/css/font-awesome.css">
     <link href="/stylesheets/site.css" rel="stylesheet" />
-    <link href='https://api.mapbox.com/mapbox-gl-js/v0.20.0/mapbox-gl.css' rel='stylesheet' />
   </head>
 
   <body class="index">
@@ -67,11 +66,12 @@
         <h5 class="nice-subtitle nice-title-purpure">Aug 31 &amp; Sep 1,2</h5>
         <h3 class="nice-title nice-title-purpure">WALT DISNEY WORLD</h3>
         <h3 class="nice-title nice-title-purpure">SWAN &amp; DOLPHIN RESORTS</h3>
-        <h5 class="nice-subtitle nice-title-purpure">Orlando, FL</h5>
-        <div class="nice-pin">
-          <img src="/images2016/pin.png" alt="Pin" />
+        <h5 class="nice-subtitle nice-title-purpure">ORLANDO, FL</h5>
+        <div class="map-frame">
+          <div class="mask">
+            <div id="mapframe"></div>
+          </div>
         </div>
-        <div id="map"></div>
         <p class="nice-paragraph">
           <strong>ElixirConf</strong> is a conference for Elixir, OTP, Web and Embedded developers
           from around the world. Focused on advancing the Elixir programming language and the communities
@@ -291,7 +291,7 @@
                     <div class="ascell">
                       <div class="helper-rotate">
                         <a href="#"><i class="fa fa-github"></i></a>
-                        <a href="#"><i class="fa fa-twitter"></i></a><br>
+                        <a href="#"><i class="fa fa-twitter"></i></a>
                         <a href="#"><i class="fa fa-info"></i></a>
                       </div>
                     </div>
@@ -311,7 +311,7 @@
                     <div class="ascell">
                       <div class="helper-rotate">
                         <a href="#"><i class="fa fa-github"></i></a>
-                        <a href="#"><i class="fa fa-twitter"></i></a><br>
+                        <a href="#"><i class="fa fa-twitter"></i></a>
                         <a href="#"><i class="fa fa-info"></i></a>
                       </div>
                     </div>
@@ -335,8 +335,6 @@
                   <div class="astable">
                     <div class="ascell">
                       <div class="helper-rotate">
-                        <a href="#"><i class="fa fa-github"></i></a>
-                        <a href="#"><i class="fa fa-twitter"></i></a><br>
                         <a href="#"><i class="fa fa-info"></i></a>
                       </div>
                     </div>
@@ -355,8 +353,6 @@
                   <div class="astable">
                     <div class="ascell">
                       <div class="helper-rotate">
-                        <a href="#"><i class="fa fa-github"></i></a>
-                        <a href="#"><i class="fa fa-twitter"></i></a><br>
                         <a href="#"><i class="fa fa-info"></i></a>
                       </div>
                     </div>
@@ -375,8 +371,6 @@
                   <div class="astable">
                     <div class="ascell">
                       <div class="helper-rotate">
-                        <a href="#"><i class="fa fa-github"></i></a>
-                        <a href="#"><i class="fa fa-twitter"></i></a><br>
                         <a href="#"><i class="fa fa-info"></i></a>
                       </div>
                     </div>
@@ -395,8 +389,6 @@
                   <div class="astable">
                     <div class="ascell">
                       <div class="helper-rotate">
-                        <a href="#"><i class="fa fa-github"></i></a>
-                        <a href="#"><i class="fa fa-twitter"></i></a><br>
                         <a href="#"><i class="fa fa-info"></i></a>
                       </div>
                     </div>
@@ -415,8 +407,6 @@
                   <div class="astable">
                     <div class="ascell">
                       <div class="helper-rotate">
-                        <a href="#"><i class="fa fa-github"></i></a>
-                        <a href="#"><i class="fa fa-twitter"></i></a><br>
                         <a href="#"><i class="fa fa-info"></i></a>
                       </div>
                     </div>
@@ -435,8 +425,450 @@
                   <div class="astable">
                     <div class="ascell">
                       <div class="helper-rotate">
-                        <a href="#"><i class="fa fa-github"></i></a>
-                        <a href="#"><i class="fa fa-twitter"></i></a><br>
+                        <a href="#"><i class="fa fa-info"></i></a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <p class="speaker-name">
+                Frank Hunleth
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="large-2 medium-4 columns">
+            <div class="speaker small-speaker">
+              <div class="tear coverimage" style="background-image: url('/images2016/speakers/sonny.png');">
+                <div class="in-tear">
+                  <div class="astable">
+                    <div class="ascell">
+                      <div class="helper-rotate">
+                        <a href="#"><i class="fa fa-info"></i></a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <p class="speaker-name">
+                Chris McCord
+              </p>
+            </div>
+          </div>
+          <div class="large-2 medium-4 columns">
+            <div class="speaker small-speaker">
+              <div class="tear coverimage" style="background-image: url('/images2016/speakers/jeg.png');">
+                <div class="in-tear">
+                  <div class="astable">
+                    <div class="ascell">
+                      <div class="helper-rotate">
+                        <a href="#"><i class="fa fa-info"></i></a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <p class="speaker-name">
+                Chris McCord
+              </p>
+            </div>
+          </div>
+          <div class="large-2 medium-4 columns">
+            <div class="speaker small-speaker">
+              <div class="tear coverimage" style="background-image: url('/images2016/speakers/bruce_tate.png');">
+                <div class="in-tear">
+                  <div class="astable">
+                    <div class="ascell">
+                      <div class="helper-rotate">
+                        <a href="#"><i class="fa fa-info"></i></a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <p class="speaker-name">
+                Bruce Tate
+              </p>
+            </div>
+          </div>
+          <div class="large-2 medium-4 columns">
+            <div class="speaker small-speaker">
+              <div class="tear coverimage" style="background-image: url('/images2016/speakers/Eric_MJ.png');">
+                <div class="in-tear">
+                  <div class="astable">
+                    <div class="ascell">
+                      <div class="helper-rotate">
+                        <a href="#"><i class="fa fa-info"></i></a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <p class="speaker-name">
+                Eric Meadows-Jönnson
+              </p>
+            </div>
+          </div>
+          <div class="large-2 medium-4 columns">
+            <div class="speaker small-speaker">
+              <div class="tear coverimage" style="background-image: url('/images2016/speakers/justin.png');">
+                <div class="in-tear">
+                  <div class="astable">
+                    <div class="ascell">
+                      <div class="helper-rotate">
+                        <a href="#"><i class="fa fa-info"></i></a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <p class="speaker-name">
+                Justin Schneck
+              </p>
+            </div>
+          </div>
+          <div class="large-2 medium-4 columns">
+            <div class="speaker small-speaker">
+              <div class="tear coverimage" style="background-image: url('/images2016/speakers/frank.png');">
+                <div class="in-tear">
+                  <div class="astable">
+                    <div class="ascell">
+                      <div class="helper-rotate">
+                        <a href="#"><i class="fa fa-info"></i></a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <p class="speaker-name">
+                Frank Hunleth
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="large-2 medium-4 columns">
+            <div class="speaker small-speaker">
+              <div class="tear coverimage" style="background-image: url('/images2016/speakers/sonny.png');">
+                <div class="in-tear">
+                  <div class="astable">
+                    <div class="ascell">
+                      <div class="helper-rotate">
+                        <a href="#"><i class="fa fa-info"></i></a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <p class="speaker-name">
+                Chris McCord
+              </p>
+            </div>
+          </div>
+          <div class="large-2 medium-4 columns">
+            <div class="speaker small-speaker">
+              <div class="tear coverimage" style="background-image: url('/images2016/speakers/jeg.png');">
+                <div class="in-tear">
+                  <div class="astable">
+                    <div class="ascell">
+                      <div class="helper-rotate">
+                        <a href="#"><i class="fa fa-info"></i></a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <p class="speaker-name">
+                Chris McCord
+              </p>
+            </div>
+          </div>
+          <div class="large-2 medium-4 columns">
+            <div class="speaker small-speaker">
+              <div class="tear coverimage" style="background-image: url('/images2016/speakers/bruce_tate.png');">
+                <div class="in-tear">
+                  <div class="astable">
+                    <div class="ascell">
+                      <div class="helper-rotate">
+                        <a href="#"><i class="fa fa-info"></i></a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <p class="speaker-name">
+                Bruce Tate
+              </p>
+            </div>
+          </div>
+          <div class="large-2 medium-4 columns">
+            <div class="speaker small-speaker">
+              <div class="tear coverimage" style="background-image: url('/images2016/speakers/Eric_MJ.png');">
+                <div class="in-tear">
+                  <div class="astable">
+                    <div class="ascell">
+                      <div class="helper-rotate">
+                        <a href="#"><i class="fa fa-info"></i></a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <p class="speaker-name">
+                Eric Meadows-Jönnson
+              </p>
+            </div>
+          </div>
+          <div class="large-2 medium-4 columns">
+            <div class="speaker small-speaker">
+              <div class="tear coverimage" style="background-image: url('/images2016/speakers/justin.png');">
+                <div class="in-tear">
+                  <div class="astable">
+                    <div class="ascell">
+                      <div class="helper-rotate">
+                        <a href="#"><i class="fa fa-info"></i></a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <p class="speaker-name">
+                Justin Schneck
+              </p>
+            </div>
+          </div>
+          <div class="large-2 medium-4 columns">
+            <div class="speaker small-speaker">
+              <div class="tear coverimage" style="background-image: url('/images2016/speakers/frank.png');">
+                <div class="in-tear">
+                  <div class="astable">
+                    <div class="ascell">
+                      <div class="helper-rotate">
+                        <a href="#"><i class="fa fa-info"></i></a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <p class="speaker-name">
+                Frank Hunleth
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="large-2 medium-4 columns">
+            <div class="speaker small-speaker">
+              <div class="tear coverimage" style="background-image: url('/images2016/speakers/sonny.png');">
+                <div class="in-tear">
+                  <div class="astable">
+                    <div class="ascell">
+                      <div class="helper-rotate">
+                        <a href="#"><i class="fa fa-info"></i></a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <p class="speaker-name">
+                Chris McCord
+              </p>
+            </div>
+          </div>
+          <div class="large-2 medium-4 columns">
+            <div class="speaker small-speaker">
+              <div class="tear coverimage" style="background-image: url('/images2016/speakers/jeg.png');">
+                <div class="in-tear">
+                  <div class="astable">
+                    <div class="ascell">
+                      <div class="helper-rotate">
+                        <a href="#"><i class="fa fa-info"></i></a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <p class="speaker-name">
+                Chris McCord
+              </p>
+            </div>
+          </div>
+          <div class="large-2 medium-4 columns">
+            <div class="speaker small-speaker">
+              <div class="tear coverimage" style="background-image: url('/images2016/speakers/bruce_tate.png');">
+                <div class="in-tear">
+                  <div class="astable">
+                    <div class="ascell">
+                      <div class="helper-rotate">
+                        <a href="#"><i class="fa fa-info"></i></a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <p class="speaker-name">
+                Bruce Tate
+              </p>
+            </div>
+          </div>
+          <div class="large-2 medium-4 columns">
+            <div class="speaker small-speaker">
+              <div class="tear coverimage" style="background-image: url('/images2016/speakers/Eric_MJ.png');">
+                <div class="in-tear">
+                  <div class="astable">
+                    <div class="ascell">
+                      <div class="helper-rotate">
+                        <a href="#"><i class="fa fa-info"></i></a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <p class="speaker-name">
+                Eric Meadows-Jönnson
+              </p>
+            </div>
+          </div>
+          <div class="large-2 medium-4 columns">
+            <div class="speaker small-speaker">
+              <div class="tear coverimage" style="background-image: url('/images2016/speakers/justin.png');">
+                <div class="in-tear">
+                  <div class="astable">
+                    <div class="ascell">
+                      <div class="helper-rotate">
+                        <a href="#"><i class="fa fa-info"></i></a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <p class="speaker-name">
+                Justin Schneck
+              </p>
+            </div>
+          </div>
+          <div class="large-2 medium-4 columns">
+            <div class="speaker small-speaker">
+              <div class="tear coverimage" style="background-image: url('/images2016/speakers/frank.png');">
+                <div class="in-tear">
+                  <div class="astable">
+                    <div class="ascell">
+                      <div class="helper-rotate">
+                        <a href="#"><i class="fa fa-info"></i></a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <p class="speaker-name">
+                Frank Hunleth
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="large-2 medium-4 columns">
+            <div class="speaker small-speaker">
+              <div class="tear coverimage" style="background-image: url('/images2016/speakers/sonny.png');">
+                <div class="in-tear">
+                  <div class="astable">
+                    <div class="ascell">
+                      <div class="helper-rotate">
+                        <a href="#"><i class="fa fa-info"></i></a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <p class="speaker-name">
+                Chris McCord
+              </p>
+            </div>
+          </div>
+          <div class="large-2 medium-4 columns">
+            <div class="speaker small-speaker">
+              <div class="tear coverimage" style="background-image: url('/images2016/speakers/jeg.png');">
+                <div class="in-tear">
+                  <div class="astable">
+                    <div class="ascell">
+                      <div class="helper-rotate">
+                        <a href="#"><i class="fa fa-info"></i></a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <p class="speaker-name">
+                Chris McCord
+              </p>
+            </div>
+          </div>
+          <div class="large-2 medium-4 columns">
+            <div class="speaker small-speaker">
+              <div class="tear coverimage" style="background-image: url('/images2016/speakers/bruce_tate.png');">
+                <div class="in-tear">
+                  <div class="astable">
+                    <div class="ascell">
+                      <div class="helper-rotate">
+                        <a href="#"><i class="fa fa-info"></i></a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <p class="speaker-name">
+                Bruce Tate
+              </p>
+            </div>
+          </div>
+          <div class="large-2 medium-4 columns">
+            <div class="speaker small-speaker">
+              <div class="tear coverimage" style="background-image: url('/images2016/speakers/Eric_MJ.png');">
+                <div class="in-tear">
+                  <div class="astable">
+                    <div class="ascell">
+                      <div class="helper-rotate">
+                        <a href="#"><i class="fa fa-info"></i></a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <p class="speaker-name">
+                Eric Meadows-Jönnson
+              </p>
+            </div>
+          </div>
+          <div class="large-2 medium-4 columns">
+            <div class="speaker small-speaker">
+              <div class="tear coverimage" style="background-image: url('/images2016/speakers/justin.png');">
+                <div class="in-tear">
+                  <div class="astable">
+                    <div class="ascell">
+                      <div class="helper-rotate">
+                        <a href="#"><i class="fa fa-info"></i></a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <p class="speaker-name">
+                Justin Schneck
+              </p>
+            </div>
+          </div>
+          <div class="large-2 medium-4 columns">
+            <div class="speaker small-speaker">
+              <div class="tear coverimage" style="background-image: url('/images2016/speakers/frank.png');">
+                <div class="in-tear">
+                  <div class="astable">
+                    <div class="ascell">
+                      <div class="helper-rotate">
                         <a href="#"><i class="fa fa-info"></i></a>
                       </div>
                     </div>
@@ -533,16 +965,7 @@
 </div><!-- .homepage-container -->
 
     <script src="/javascripts/jquery-1.12.0.min.js"></script>
+    <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBQu1pFTW2ni8iwdASum9iueNpCRoG3HCY&sensor=false"></script>
     <script src="/javascripts/all.js"></script>
-    <script src="https://api.mapbox.com/mapbox-gl-js/v0.20.0/mapbox-gl.js"></script>
-    <script type="text/javascript">
-      mapboxgl.accessToken = 'pk.eyJ1IjoicmdlY2hhdmFycmlhIiwiYSI6Inc4bTR1NlkifQ.GaI-YI-IEZwrB1nQNAmqzg';
-        var map = new mapboxgl.Map({
-            container: 'map',
-            style: 'mapbox://styles/rgechavarria/cip927n7z0012b7nf5a0ql7me',
-            zoom: 15,
-        });
-        map.setCenter([-81.5628278, 28.3674646]);
-    </script>
   </body>
 </html>

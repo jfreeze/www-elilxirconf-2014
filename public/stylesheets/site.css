@@ -349,13 +349,38 @@ body h3 {
 
 }
 
-#map {
-  height: 400px;
+.map-frame {
+  position: relative;
+  margin: 40px auto;
+
+}
+.map-frame .mask:hover #mapframe {
+  border-radius: 0;
+  width: 100%;
+}
+.map-frame .mask:hover {
+  width: 100%;
+  border-radius: 0;
+}
+.map-frame .mask {
+  width: 200px;
+  height: 200px;
+  overflow: hidden;
+  margin: auto;
+  border-radius: 50%;
+  position: relative;
+  transition: all 0.5s cubic-bezier(0.2, 1, 0.3, 1);
+}
+#mapframe {
+  height: 200px;
+  width: 100%;
+  position: absolute;
+  left:0;
+  top:0px;
   border-radius: 50%;
 }
-.mapboxgl-canvas{
-  
-}
+
+
 
 .coverimage{
   background-repeat: no-repeat no-repeat;
@@ -876,9 +901,10 @@ table.tickets tr td.d {
 }
 
 .nice-subtitle {
-  font-size: 30px;
-  font-weight: 200;
-  text-transform: uppercase;
+  font-size: 25px;
+  font-weight: 700;
+  color: #7a5686;
+  margin: 10px 0px;
 }
 
 .nice-paragraph {
@@ -1047,9 +1073,9 @@ table.tickets tr td.d {
 }
 #elx-speakers .speaker-name {
     margin-top: 15px;
-    font-size: 20px;
+    font-size: 18px;
     font-weight: 700;
-    line-height: 23px;
+    line-height: 20px;
 }
 
 #elx-footer .block a {
@@ -1078,8 +1104,8 @@ table.tickets tr td.d {
 
 }
 .small-speaker .tear {
-  width: 7em;
-  height: 7em;
+  width: 5em;
+  height: 5em;
 }
 .tear {
   -webkit-box-sizing: content-box;
@@ -1099,7 +1125,7 @@ table.tickets tr td.d {
   transition: all 0.5s cubic-bezier(0.2, 1, 0.3, 1);
 }
 .tear .in-tear {
-  background-color: #7a5686;
+  background-color: rgba(122,86,134,0.7);
   position: absolute;
   width: 100%;
   height: 100%;
