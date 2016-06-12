@@ -60,7 +60,10 @@ $(document).ready(function(){
   function mapinit(){
 
     var mapa = document.getElementById("mapframe");
-
+    if(mapa === null){
+      return;
+    }
+    
     var latlong = new google.maps.LatLng("28.3674646", "-81.5628278"),
 
     mapOptions = {
