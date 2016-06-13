@@ -373,14 +373,87 @@ body h3 {
   border-radius: 50%;
 }
 
+.modal {
+  position: relative;
+}
 .modal .modal-wrap {
   transition: all 0.5s cubic-bezier(0.2, 1, 0.3, 1);
   background-color: rgba(255,255,255,0.9);
+}
+.modal .navigation {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  top: 0;
+  z-index: 100;
+}
+.modal .navigation .wrap-navidation{
+  display: flex;
+  justify-content: center;
+  height: 100%;
+  padding: 0px 30px;
+  overflow: auto;
+}
+.modal input:checked ~ .modal-overlay .modal-wrap {
+  overflow: auto;
+}
+.modal .navigation a{
+  align-self: center;
+  font-size: 50px;
+  color: #7a5686;
+  transition: all 0.5s ease;
+}
+.modal .navigation a:first-child {
+  margin-right: auto;
+}
+.modal .navigation a:first-child:hover {
+  transform: translateX(-5px);
+}
+.modal .navigation a:last-child:hover {
+  transform: translateX(5px);
 }
 .modal .modal-overlay .close {
   color: #7a5686;
 }
 
+.rounded-speaker {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  position: relative;
+  border: 1px solid rgba(120, 87, 134, 0.2);
+}
+.speaker-self p{
+  font-size: 20px;
+  color: #1f1f1f;
+}
+
+.speaker-self .top-speaker {
+  font-size: 0;
+  margin-bottom: 20px
+}
+.speaker-self .top-speaker .left-in-speaker{
+  display: inline-block;
+  vertical-align: middle;
+  width: 30%;
+}
+.speaker-self .top-speaker .right-in-speaker{
+  display: inline-block;
+  width: 70%;
+  font-size: 20px;
+  vertical-align: middle;
+}
+.speaker-self .top-speaker .speaker-name {
+  font-weight: 800;
+}
+.speaker-self .top-speaker .rol-speaker {
+  color: #7a5686;
+}
+.speaker-self .top-speaker .social-networks a {
+  color: #7a5686;
+  font-size: 25px;
+}
 
 .coverimage{
   background-repeat: no-repeat no-repeat;
@@ -855,6 +928,7 @@ table.tickets tr td.d {
   display: inline-block;
   position: relative;
   z-index: 2;
+  border: 2px solid #785786;
   transition: all 0.5s cubic-bezier(0.2, 1, 0.3, 1);
 }
 
