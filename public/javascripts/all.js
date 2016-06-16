@@ -63,7 +63,7 @@ $(document).ready(function(){
     if(mapa === null){
       return;
     }
-    
+
     var latlong = new google.maps.LatLng("28.3674646", "-81.5628278"),
 
     mapOptions = {

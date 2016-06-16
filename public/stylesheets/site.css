@@ -1147,7 +1147,6 @@ table.tickets tr td.d {
   overflow: hidden;
   margin: 60px;
 }
-
 #elx-sponsors .type-sponsor img{
   margin: 20px;
   display: inline-block;
@@ -1161,11 +1160,15 @@ table.tickets tr td.d {
 #elx-sponsors .type-sponsor.silver-sponsor img{
   width: 20%;
 }
-#elx-sponsors .type-sponsor.supporters-sponsor img{
+#elx-sponsors .type-sponsor.bronze-sponsor img{
   width: 15%;
 }
-
-
+#elx-sponsors .type-sponsor.lanyard-sponsor img{
+  width: 15%;
+}
+#elx-sponsors .type-sponsor.supporters-sponsor img{
+  width: 10%;
+}
 #elx-speakers .trainers .row:after{
   content: "";
   width: 20px;
