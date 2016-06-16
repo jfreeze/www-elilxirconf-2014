@@ -424,6 +424,11 @@ body h3 {
   position: relative;
   border: 1px solid rgba(120, 87, 134, 0.2);
 }
+
+.speaker-self {
+  padding: 50px 0;
+}
+
 .speaker-self p{
   font-size: 20px;
   color: #1f1f1f;
@@ -1226,6 +1231,27 @@ table.tickets tr td.d {
 
 #restaurants ul li {
   padding-bottom: 1em;
+}
+
+/* Speakers */
+#speakers {
+  padding-top: 50px;
+}
+
+#speakers h3 {
+  text-align: center;
+}
+
+#speakers .speaker-name {
+  text-align: left;
+}
+
+#speakers .three-spaces-speaker-image {
+  width: 25%;
+}
+
+#speakers .three-spaces-speaker-title {
+  width: 50%;
 }
 
 .nolist {
