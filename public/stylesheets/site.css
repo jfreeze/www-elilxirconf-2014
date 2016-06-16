@@ -1098,6 +1098,10 @@ table.tickets tr td.d {
     border: 2px solid #785786;
     transition: all 0.5s cubic-bezier(0.2, 1, 0.3, 1);
 }
+.nice-button:hover {
+  border:none;
+}
+
 .nice-button:hover::before {
     opacity: 1;
     background-color: rgba(0, 0, 0, 0);
@@ -1468,10 +1472,21 @@ a.normal, a:active.normal, a:hover.normal, a:visited.normal {
     margin: 0;
     padding: 0;
 }
+#coc {
+  padding: 50px 0px;
+}
 @media (max-width: 800px) {
     /* line 191, site.css.scss */
     /* line 245, site.css.scss */
     .speaker-self .top-speaker .left-in-speaker {
+      width: 100%;
+      text-align: center;
+    }
+    #speakers .three-spaces-speaker-image {
+      width: 100%;
+      text-align: center;
+    }
+    #speakers .three-spaces-speaker-title {
       width: 100%;
       text-align: center;
     }
@@ -1568,5 +1583,18 @@ a.normal, a:active.normal, a:hover.normal, a:visited.normal {
     /* line 248, site.css.scss */
     .in-wrapper {
         width: 90%;
+    }
+    #elx-registration .prices-table .table-row {
+      font-size: 16px;
+    }
+    #elx-sponsors .type-sponsor {
+      margin: 20px 0px;
+    }
+    #elx-sponsors .type-sponsor.lanyard-sponsor img {
+      width: 50%;
+      margin: 30px 0px;
+    }
+    #elx-footer .block {
+      padding: 15px 0px;
     }
 }
