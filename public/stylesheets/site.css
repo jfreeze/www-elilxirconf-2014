@@ -88,6 +88,8 @@ body {
     height: 100%;
     overflow: auto;
     color: #372f3c;
+    overflow-x: hidden;
+    width: 100%;
 }
 
 /* ==========================================================================
@@ -538,11 +540,7 @@ body h3 {
     border: 1px solid rgba(120, 87, 134, 0.2);
 }
 .speaker-self {
-    padding: 50px 0;
-}
-.speaker-self p {
-    font-size: 20px;
-    color: #1f1f1f;
+    padding: 50px 10px;
 }
 .speaker-self .top-speaker {
     font-size: 0;
@@ -1472,6 +1470,27 @@ a.normal, a:active.normal, a:hover.normal, a:visited.normal {
 }
 @media (max-width: 800px) {
     /* line 191, site.css.scss */
+    /* line 245, site.css.scss */
+    .speaker-self .top-speaker .left-in-speaker {
+      width: 100%;
+      text-align: center;
+    }
+    .speaker-self .top-speaker .left-in-speaker .rounded-speaker {
+      margin: 0 auto;
+      margin-bottom: 15px;
+      width: 150px;
+      height: 150px;
+    }
+    .speaker-self .top-speaker .right-in-speaker {
+      width: 100%;
+      text-align: center;
+    }
+    #speakers .speaker-name {
+      text-align: center;
+    }
+    .speaker-self p {
+      font-size: 18px;
+    }
     .menu-button {
         display: flex;
     }
@@ -1537,7 +1556,12 @@ a.normal, a:active.normal, a:hover.normal, a:visited.normal {
     }
 }
 @media (max-width: 500px) {
-    /* line 245, site.css.scss */
+    .homepage-container .pyramid-triangle .palms .fix-img {
+      opacity: 0;
+    }
+    .nice-title {
+      font-size: 25px;
+    }
     .pyramid-top img {
         width: 100%;
     }
