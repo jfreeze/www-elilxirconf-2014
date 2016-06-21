@@ -1,18 +1,15 @@
 /*! normalize.css v2.0.1 | MIT License | git.io/normalize */
 
-
 /* ==========================================================================
    HTML5 display definitions
-   ========================================================================== */
-
+   ==========================================================================
+ */
 
 /*
  * Corrects `block` display not defined in IE 8/9.
  */
 
-
 /* line 11, _normalize.scss */
-
 article, aside, details, figcaption, figure, footer, header, hgroup, nav, section, summary {
     display: block;
 }
@@ -21,9 +18,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, nav, sectio
  * Corrects `inline-block` display not defined in IE 8/9.
  */
 
-
 /* line 29, _normalize.scss */
-
 audio, canvas, video {
     display: inline-block;
 }
@@ -33,9 +28,7 @@ audio, canvas, video {
  * Remove excess height in iOS 5 devices.
  */
 
-
 /* line 40, _normalize.scss */
-
 audio:not([controls]) {
     display: none;
     height: 0;
@@ -45,17 +38,15 @@ audio:not([controls]) {
  * Addresses styling for `hidden` attribute not present in IE 8/9.
  */
 
-
 /* line 49, _normalize.scss */
-
 [hidden] {
     display: none;
 }
 
 /* ==========================================================================
    Base
-   ========================================================================== */
-
+   ==========================================================================
+ */
 
 /*
  * 1. Sets default font family to sans-serif.
@@ -63,11 +54,9 @@ audio:not([controls]) {
  *    user zoom.
  */
 
-
 /* line 63, _normalize.scss */
-
 html {
-    overflow: hidden;
+    /*overflow: hidden;*/
     height: 100%;
     /* 1 */
     -webkit-text-size-adjust: 100%;
@@ -79,7 +68,6 @@ html {
 /*
  * Removes default margin.
  */
-
 
 /* line 73, _normalize.scss */
 
@@ -94,16 +82,14 @@ body {
 
 /* ==========================================================================
    Links
-   ========================================================================== */
-
+   ==========================================================================
+ */
 
 /*
  * Addresses `outline` inconsistency between Chrome and other browsers.
  */
 
-
 /* line 85, _normalize.scss */
-
 a:focus {
     outline: thin dotted;
 }
@@ -111,7 +97,6 @@ a:focus {
 /*
  * Improves readability when focused and also mouse hovered in all browsers.
  */
-
 
 /* line 93, _normalize.scss */
 
@@ -121,17 +106,15 @@ a:active, a:hover {
 
 /* ==========================================================================
    Typography
-   ========================================================================== */
-
+   ==========================================================================
+ */
 
 /*
  * Addresses `h1` font sizes within `section` and `article` in Firefox 4+,
  * Safari 5, and Chrome.
  */
 
-
 /* line 107, _normalize.scss */
-
 h1 {
     font-size: 2em;
 }
@@ -140,7 +123,6 @@ h1 {
  * Addresses styling not present in IE 8/9, Safari 5, and Chrome.
  */
 
-
 /* line 115, _normalize.scss */
 
 abbr[title] {
@@ -148,16 +130,14 @@ abbr[title] {
 }
 
 /*
- * Addresses style set to `bolder` in Firefox 4+, Safari erif;
-  font-size: 1em; }
+ * Addresses style set to `bolder` in Firefox 4+, Safari.
+ */
 
 /*
  * Improves readability of pre-formatted text in all browsers.
  */
 
-
 /* line 162, _normalize.scss */
-
 pre {
     white-space: pre;
     white-space: pre-wrap;
@@ -168,9 +148,7 @@ pre {
  * Sets consistent quote types.
  */
 
-
 /* line 172, _normalize.scss */
-
 q {
     quotes: "\201C" "\201D" "\2018" "\2019";
 }
@@ -179,9 +157,7 @@ q {
  * Addresses inconsistent and variable font size in all browsers.
  */
 
-
 /* line 180, _normalize.scss */
-
 small {
     font-size: 80%;
 }
@@ -189,7 +165,6 @@ small {
 /*
  * Prevents `sub` and `sup` affecting `line-height` in all browsers.
  */
-
 
 /* line 188, _normalize.scss */
 
@@ -201,29 +176,25 @@ sub, sup {
 }
 
 /* line 196, _normalize.scss */
-
 sup {
     top: -0.5em;
 }
 
 /* line 200, _normalize.scss */
-
 sub {
     bottom: -0.25em;
 }
 
 /* ==========================================================================
    Embedded content
-   ========================================================================== */
-
+   ==========================================================================
+ */
 
 /*
  * Removes border when inside `a` element in IE 8/9.
  */
 
-
 /* line 212, _normalize.scss */
-
 img {
     border: 0;
 }
@@ -232,41 +203,35 @@ img {
  * Corrects overflow displayed oddly in IE 9.
  */
 
-
 /* line 220, _normalize.scss */
-
 svg:not(:root) {
     overflow: hidden;
 }
 
 /* ==========================================================================
    Figures
-   ========================================================================== */
-
+   ==========================================================================
+ */
 
 /*
  * Addresses margin not present in IE 8/9 and Safari 5.
  */
 
-
 /* line 232, _normalize.scss */
-
 figure {
     margin: 0;
 }
 
 /* ==========================================================================
    Forms
-   ========================================================================== */
-
+   ==========================================================================
+ */
 
 /*
  * Define consistent border, margin, and padding.
  */
 
-
 /* line 244, _normalize.scss */
-
 fieldset {
     border: 1px solid #c0c0c0;
     margin: 0 2px;
@@ -278,9 +243,7 @@ fieldset {
  * 2. Remove padding so people aren't caught out if they zero out fieldsets.
  */
 
-
 /* line 255, _normalize.scss */
-
 legend {
     border: 0;
     /* 1 */
@@ -293,7 +256,6 @@ legend {
  * 2. Corrects font size not being inherited in all browsers.
  * 3. Addresses margins set differently in Firefox 4+, Safari 5, and Chrome
  */
-
 
 /* line 266, _normalize.scss */
 
@@ -310,9 +272,7 @@ button, input, select, textarea {
  * the UA stylesheet.
  */
 
-
 /* line 280, _normalize.scss */
-
 button, input {
     line-height: normal;
 }
@@ -325,11 +285,10 @@ button, input {
  *    `input` and others.
  */
 
-
 /* line 293, _normalize.scss */
-
 button, html input[type="button"], input[type="reset"], input[type="submit"] {
     -webkit-appearance: button;
+    -moz-appearance: button;
     /* 2 */
     cursor: pointer;
     /* 3 */
@@ -339,9 +298,7 @@ button, html input[type="button"], input[type="reset"], input[type="submit"] {
  * Re-set default cursor for disabled elements.
  */
 
-
 /* line 305, _normalize.scss */
-
 button[disabled], input[disabled] {
     cursor: default;
 }
@@ -351,9 +308,7 @@ button[disabled], input[disabled] {
  * 2. Removes excess padding in IE 8/9.
  */
 
-
 /* line 315, _normalize.scss */
-
 input[type="checkbox"], input[type="radio"] {
     box-sizing: border-box;
     /* 1 */
@@ -367,11 +322,10 @@ input[type="checkbox"], input[type="radio"] {
  *    (include `-moz` to future-proof).
  */
 
-
 /* line 327, _normalize.scss */
-
 input[type="search"] {
     -webkit-appearance: textfield;
+    -moz-appearance: textfield;
     /* 1 */
     -moz-box-sizing: content-box;
     -webkit-box-sizing: content-box;
@@ -384,20 +338,17 @@ input[type="search"] {
  * on OS X.
  */
 
-
 /* line 339, _normalize.scss */
-
 input[type="search"]::-webkit-search-cancel-button, input[type="search"]::-webkit-search-decoration {
     -webkit-appearance: none;
+    -moz-appearance: none;
 }
 
 /*
  * Removes inner padding and border in Firefox 4+.
  */
 
-
 /* line 348, _normalize.scss */
-
 button::-moz-focus-inner, input::-moz-focus-inner {
     border: 0;
     padding: 0;
@@ -408,9 +359,7 @@ button::-moz-focus-inner, input::-moz-focus-inner {
  * 2. Improves readability and alignment in all browsers.
  */
 
-
 /* line 359, _normalize.scss */
-
 textarea {
     overflow: auto;
     /* 1 */
@@ -420,16 +369,14 @@ textarea {
 
 /* ==========================================================================
    Tables
-   ========================================================================== */
-
+   ==========================================================================
+ */
 
 /*
  * Remove most spacing between table cells.
  */
 
-
 /* line 372, _normalize.scss */
-
 table {
     border-collapse: collapse;
     border-spacing: 0;
@@ -440,31 +387,26 @@ table.date tr td {
 }
 
 /* line 9, site.css.scss */
-
 body {
     font-family: 'Open Sans', sans-serif;
 }
 
 /* line 12, site.css.scss */
-
 img {
     max-width: 100%;
 }
 
 /* line 15, site.css.scss */
-
 * {
     box-sizing: border-box;
 }
 
 /* line 19, site.css.scss */
-
 a {
     text-decoration: none;
 }
 
 /* line 22, site.css.scss */
-
 body h3 {
     font-family: 'Open Sans', sans-serif;
 }
@@ -486,51 +428,8 @@ body h3 {
     width: 100%;
     position: absolute;
     left: 0;
-    top: 0px;
-    border-radius: 50%;
-}
-.modal {
-    position: relative;
-}
-.modal .modal-wrap {
-    transition: all 0.5s cubic-bezier(0.2, 1, 0.3, 1);
-    background-color: rgba(255, 255, 255, 0.9);
-}
-.modal .navigation {
-    position: fixed;
-    width: 100%;
-    height: 100%;
-    left: 0;
     top: 0;
-    z-index: 100;
-}
-.modal .navigation .wrap-navidation {
-    display: flex;
-    justify-content: center;
-    height: 100%;
-    padding: 0px 30px;
-    overflow: auto;
-}
-.modal input:checked~ .modal-overlay .modal-wrap {
-    overflow: auto;
-}
-.modal .navigation a {
-    align-self: center;
-    font-size: 50px;
-    color: #7a5686;
-    transition: all 0.5s ease;
-}
-.modal .navigation a:first-child {
-    margin-right: auto;
-}
-.modal .navigation a:first-child:hover {
-    transform: translateX(-5px);
-}
-.modal .navigation a:last-child:hover {
-    transform: translateX(5px);
-}
-.modal .modal-overlay .close {
-    color: #7a5686;
+    border-radius: 50%;
 }
 .rounded-speaker {
     width: 200px;
@@ -544,7 +443,7 @@ body h3 {
 }
 .speaker-self .top-speaker {
     font-size: 0;
-    margin-bottom: 20px
+    margin-bottom: 20px;
 }
 .speaker-self .top-speaker .left-in-speaker {
     display: inline-block;
@@ -585,7 +484,7 @@ body h3 {
     text-align: center;
 }
 p, h1, h2, h3, h4, h5 {
-    margin: 0px;
+    margin: 0;
 }
 .wrapper {
     width: 90%;
@@ -599,14 +498,12 @@ p, h1, h2, h3, h4, h5 {
 }
 
 /* line 37, site.css.scss */
-
 .top-section {
     background-color: #382f3d;
-    padding: 10px 0px;
+    padding: 10px 0;
 }
 
 /* line 40, site.css.scss */
-
 .top-section .wrapper {
     display: flex;
     flex-direction: row;
@@ -614,19 +511,16 @@ p, h1, h2, h3, h4, h5 {
 }
 
 /* line 44, site.css.scss */
-
 .top-section .wrapper .logo {
     margin-right: auto;
 }
 
 /* line 47, site.css.scss */
-
 .top-section .wrapper .navbar ul li {
     display: inline-block;
 }
 
 /* line 49, site.css.scss */
-
 .top-section .wrapper .navbar ul li a {
     color: #5b5661;
     display: inline-block;
@@ -636,13 +530,11 @@ p, h1, h2, h3, h4, h5 {
 }
 
 /* line 55, site.css.scss */
-
 .top-section .wrapper .navbar ul li a:hover {
     cursor: default;
 }
 
 /* line 65, site.css.scss */
-
 .homepage-container {
     background-color: #382f3d;
     text-align: center;
@@ -651,14 +543,12 @@ p, h1, h2, h3, h4, h5 {
 }
 
 /* line 70, site.css.scss */
-
 .homepage-container .pyramid-top {
     z-index: 5;
     position: relative;
 }
 
 /* line 74, site.css.scss */
-
 .homepage-container .pyramid-bottom {
     width: 100%;
     display: block;
@@ -667,24 +557,21 @@ p, h1, h2, h3, h4, h5 {
 }
 
 /* line 79, site.css.scss */
-
 .homepage-container .pyramid-bottom img {
     width: 100%;
 }
 
 /* line 83, site.css.scss */
-
 .homepage-container .pyramid-triangle {
     text-align: center;
     position: absolute;
     width: 100%;
-    top: 0px;
+    top: 0;
     display: flex;
     justify-content: center;
 }
 
 /* line 90, site.css.scss */
-
 .homepage-container .pyramid-triangle .palms {
     position: absolute;
     text-align: center;
@@ -692,11 +579,10 @@ p, h1, h2, h3, h4, h5 {
     transform: translateY(150px);
     top: 190px;
     width: 100%;
-    left: 0px;
+    left: 0;
 }
 
 /* line 98, site.css.scss */
-
 .homepage-container .pyramid-triangle .palms .fix-img {
     position: absolute;
     text-align: center;
@@ -704,7 +590,6 @@ p, h1, h2, h3, h4, h5 {
 }
 
 /* line 104, site.css.scss */
-
 .homepage-container .pyramid-triangle .in-triangle {
     width: 0;
     height: 0;
@@ -714,23 +599,20 @@ p, h1, h2, h3, h4, h5 {
 }
 
 /* line 113, site.css.scss */
-
 .event-information {
     background-color: #fff;
     color: #382f3d;
     position: relative;
-    padding: 50px 0px;
+    padding: 50px 0;
     z-index: 4;
 }
 
 /* line 120, site.css.scss */
-
 .event-information .in-wrapper {
     transform: translateY(-50px);
 }
 
 /* line 123, site.css.scss */
-
 .event-information .place {
     font-weight: bold;
     font-size: 30px;
@@ -788,13 +670,12 @@ p.restaurant {
     border-right: 1px solid #280636;
     border-bottom: 1px solid #280636;
 }
-.event-information .cfp a:active {}
+/*.event-information .cfp a:active {}*/
 .event-information a:hover {
     background-color: #382f3d;
 }
 
 /* line 127, site.css.scss */
-
 .event-information .city {
     font-size: 20px;
     text-transform: uppercase;
@@ -803,7 +684,6 @@ p.restaurant {
 }
 
 /* line 133, site.css.scss */
-
 .event-information .event-date {
     display: flex;
     justify-content: center;
@@ -811,7 +691,6 @@ p.restaurant {
 }
 
 /* line 138, site.css.scss */
-
 .event-information .left-date, .event-information .right-date {
     font-size: 20px;
     align-self: center;
@@ -828,7 +707,6 @@ p.restaurant {
 }
 
 /* line 143, site.css.scss */
-
 .white-bg {
     background-color: #ecf0f1;
     height: 200px;
@@ -838,7 +716,6 @@ p.restaurant {
 }
 
 /* line 150, site.css.scss */
-
 .menu-button {
     position: absolute;
     right: 20px;
@@ -852,31 +729,26 @@ p.restaurant {
 }
 
 /* line 161, site.css.scss */
-
 .menu-button.active span {
     background-color: #382f3d;
 }
 
 /* line 163, site.css.scss */
-
 .menu-button.active span:nth-child(1) {
     transform: translateY(10px) rotate(45deg);
 }
 
 /* line 166, site.css.scss */
-
 .menu-button.active span:nth-child(2) {
     transform: translateX(100%);
 }
 
 /* line 169, site.css.scss */
-
 .menu-button.active span:nth-child(3) {
     transform: translateY(-12px) rotate(-45deg);
 }
 
 /* line 174, site.css.scss */
-
 .menu-button span {
     transition: all 0.5s ease;
     height: 10px;
@@ -887,18 +759,16 @@ p.restaurant {
 }
 
 /* line 181, site.css.scss */
-
 .menu-button span:nth-child(2) {
     transition: all 0.2s ease;
 }
 
 /* line 184, site.css.scss */
-
 .menu-button span:first-child {
-    margin-top: 0px;
+    margin-top: 0;
 }
 .top-section .wrapper .navbar ul li a {
-    color: #C2C2C2;
+    color: #c2c2c2;
 }
 .top-section .wrapper .navbar ul li a:hover {
     cursor: pointer;
@@ -955,26 +825,19 @@ p.restaurant {
 .spkrgrid-item .title {
     font-weight: 400;
     font-style: italic;
-    color: #382F3D;
+    color: #382f3d;
 }
 .grid a:hover {
     background-color: #ecf0f1;
     color: black;
     border: none;
 }
-.grid {}
+/*.grid {}*/
 .grid-row {
     display: flex;
     justify-content: center;
     flex-flow: row wrap;
 }
-
-/*
-.grid-row:nth-child(odd) {
-  background-color: #ffe;
-}
-*/
-
 .grid-item {
     flex: 300px 300px 300px;
     margin: 20px 5px;
@@ -982,7 +845,6 @@ p.restaurant {
 }
 
 /* Doesn't work in Safari */
-
 .spkrgrid {
     display: flex;
     flex-direction: column;
@@ -1017,14 +879,14 @@ h1.training {
     display: block;
 }
 .speaker .github:before {
-    content: "github: "
+    content: "github: ";
 }
 .speaker .twitter {
     font-weight: 400;
     display: block;
 }
 .speaker .twitter:before {
-    content: "@"
+    content: "@";
 }
 .speaker .bio {
     margin: 20px 0 0 10px;
@@ -1055,14 +917,14 @@ table.tickets tr th {
     font-size: 150%;
     color: white;
     padding: 4px 8px;
-    background-color: #382F3D;
+    background-color: #382f3d;
     border-left: 1px solid white;
 }
 table.tickets tr td {
     font-weight: 300;
     font-size: 115%;
-    color: #382F3D;
-    border: 1px solid #382F3D;
+    color: #382f3d;
+    border: 1px solid #382f3d;
     padding: 2px 4px;
 }
 table.tickets tr td.d {
@@ -1105,9 +967,8 @@ table.tickets tr td.d {
     transition: all 0.5s cubic-bezier(0.2, 1, 0.3, 1);
 }
 .nice-button:hover {
-  border:none;
+    border: none;
 }
-
 .nice-button:hover::before {
     opacity: 1;
     background-color: rgba(0, 0, 0, 0);
@@ -1123,7 +984,7 @@ table.tickets tr td.d {
     display: inline-block;
     position: absolute;
     height: 110%;
-    left: 00;
+    left: 0;
     top: -5%;
     z-index: 1;
     transform: scale3d(0.7, 1, 1);
@@ -1157,11 +1018,10 @@ table.tickets tr td.d {
     font-size: 25px;
     font-weight: 700;
     color: #7a5686;
-    margin: 10px 0px;
+    margin: 10px 0;
 }
 .nice-paragraph {
     color: #372f3c;
-    font-weight: 100;
     font-size: 20px;
     font-weight: 300;
     margin: 20px 0;
@@ -1173,14 +1033,14 @@ table.tickets tr td.d {
 #elx-event {
     position: relative;
     background-color: white;
-    padding: 80px 0px;
+    padding: 80px 0;
     border-top: 1px solid #ecf0f1;
     font-size: 20px;
 }
 #elx-registration {
     position: relative;
     background-color: white;
-    padding: 80px 0px;
+    padding: 80px 0;
     border-top: 1px solid #ecf0f1;
     font-size: 20px;
 }
@@ -1189,7 +1049,7 @@ table.tickets tr td.d {
 }
 #elx-registration .prices-table {
     text-align: left;
-    margin: 60px 0px;
+    margin: 60px 0;
 }
 #elx-registration .prices-table .header-table {
     background-color: #785786;
@@ -1219,13 +1079,13 @@ table.tickets tr td.d {
 }
 #elx-registration .cancelation-policy .refund-rules {
     list-style: none;
-    padding: 0px;
-    margin: 0px;
-    margin: 30px 0px;
+    padding: 0;
+    margin: 0;
+    margin: 30px 0;
 }
 #elx-registration .cancelation-policy .refund-rules li {
     font-weight: 700;
-    margin: 20px 0px;
+    margin: 20px 0;
 }
 #elx-reserve {
     background-color: white;
@@ -1253,10 +1113,10 @@ table.tickets tr td.d {
 }
 #elx-reserve .hotel-info {
     text-align: left;
-    padding: 50px 0px;
+    padding: 50px 0;
 }
 #elx-reserve .hotel-info .nice-paragraph {
-    margin: 20px 0px;
+    margin: 20px 0;
 }
 #elx-reserve .hotel-info .nice-paragraph:first-child {
     margin-top: 0;
@@ -1274,7 +1134,7 @@ table.tickets tr td.d {
 }
 #elx-sponsors {
     background-color: white;
-    padding: 70px 0px;
+    padding: 70px 0;
 }
 #elx-sponsors .nice-title {
     margin-bottom: 20px;
@@ -1323,12 +1183,12 @@ table.tickets tr td.d {
 }
 #elx-speakers {
     background-color: white;
-    padding: 70px 0px;
+    padding: 70px 0;
     border-bottom: 1px solid #ecf0f1;
 }
 #elx-speakers .speaker {
     display: inline-block;
-    margin: 15px 0px;
+    margin: 15px 0;
     text-align: center;
 }
 #elx-speakers .nice-title {
@@ -1354,7 +1214,7 @@ table.tickets tr td.d {
     font-weight: 700;
 }
 #elx-footer .block {
-    padding: 70px 0px;
+    padding: 70px 0;
     display: inline-block;
     vertical-align: middle;
     color: white;
@@ -1373,7 +1233,6 @@ table.tickets tr td.d {
 }
 
 /* Speakers */
-
 #speakers {
     padding-top: 50px;
 }
@@ -1404,6 +1263,7 @@ table.tickets tr td.d {
 .tear {
     -webkit-box-sizing: content-box;
     -moz-box-sizing: content-box;
+    box-sizing: content-box;
     margin: auto;
     border: none;
     -webkit-border-radius: 80% 0 55% 50% / 55% 0 80% 50%;
@@ -1423,19 +1283,25 @@ table.tickets tr td.d {
     width: 100%;
     height: 100%;
     bottom: -100%;
-    left: 0px;
+    left: 0;
     content: "";
     transition: all 0.5s cubic-bezier(0.2, 1, 0.3, 1);
 }
 .tear:hover .in-tear .helper-rotate {
     -webkit-transform: rotateZ(45deg);
+    -o-transform: rotateZ(45deg);
+    -moz-transform: rotateZ(45deg);
+    -ms-transform: rotateZ(45deg);
     transform: rotateZ(45deg);
 }
 .tear:hover .in-tear {
-    bottom: 0%;
+    bottom: 0;
 }
 .tear .in-tear .helper-rotate {
     -webkit-transform: rotateZ(-45deg);
+    -o-transform: rotateZ(-45deg);
+    -moz-transform: rotateZ(-45deg);
+    -ms-transform: rotateZ(-45deg);
     transform: rotateZ(-45deg);
     transition: all 0.9s cubic-bezier(0.2, 1, 0.3, 1);
 }
@@ -1447,6 +1313,9 @@ table.tickets tr td.d {
 }
 .tear:hover {
     -webkit-transform: rotateZ(-45deg);
+    -o-transform: rotateZ(-45deg);
+    -moz-transform: rotateZ(-45deg);
+    -ms-transform: rotateZ(-45deg);
     transform: rotateZ(-45deg);
     border-radius: 80% 0 55% 50% / 55% 0 80% 50%;
 }
@@ -1472,45 +1341,45 @@ table.tickets tr td.d {
 }
 a.normal, a:active.normal, a:hover.normal, a:visited.normal {
     display: inline-block;
-    background-color: #ECF0F1;
+    background-color: #ecf0f1;
     border: none;
-    color: #3333CC;
+    color: #3333cc;
     margin: 0;
     padding: 0;
 }
 #coc {
-  padding: 50px 0px;
+    padding: 50px 0;
 }
 @media (max-width: 800px) {
     /* line 191, site.css.scss */
     /* line 245, site.css.scss */
     .speaker-self .top-speaker .left-in-speaker {
-      width: 100%;
-      text-align: center;
+        width: 100%;
+        text-align: center;
     }
     #speakers .three-spaces-speaker-image {
-      width: 100%;
-      text-align: center;
+        width: 100%;
+        text-align: center;
     }
     #speakers .three-spaces-speaker-title {
-      width: 100%;
-      text-align: center;
+        width: 100%;
+        text-align: center;
     }
     .speaker-self .top-speaker .left-in-speaker .rounded-speaker {
-      margin: 0 auto;
-      margin-bottom: 15px;
-      width: 150px;
-      height: 150px;
+        margin: 0 auto;
+        margin-bottom: 15px;
+        width: 150px;
+        height: 150px;
     }
     .speaker-self .top-speaker .right-in-speaker {
-      width: 100%;
-      text-align: center;
+        width: 100%;
+        text-align: center;
     }
     #speakers .speaker-name {
-      text-align: center;
+        text-align: center;
     }
     .speaker-self p {
-      font-size: 18px;
+        font-size: 18px;
     }
     .menu-button {
         display: flex;
@@ -1546,8 +1415,8 @@ a.normal, a:active.normal, a:hover.normal, a:visited.normal {
         z-index: 100;
         background-color: white;
         height: 100%;
-        top: 0px;
-        left: 0px;
+        top: 0;
+        left: 0;
         width: 100%;
         display: flex;
         justify-content: center;
@@ -1561,27 +1430,27 @@ a.normal, a:active.normal, a:hover.normal, a:visited.normal {
     }
     /* line 228, site.css.scss */
     .top-section .wrapper .navbar ul {
-        padding: 0px;
-        margin: 0px;
+        padding: 0;
+        margin: 0;
     }
     /* line 231, site.css.scss */
     .top-section .wrapper .navbar ul li {
         display: block;
         text-align: center;
         font-size: 30px;
-        margin: 20px 0px;
+        margin: 20px 0;
     }
     /* line 236, site.css.scss */
     .top-section .wrapper .navbar ul li a {
-        color: #C2C2C2;
+        color: #c2c2c2;
     }
 }
 @media (max-width: 500px) {
     .homepage-container .pyramid-triangle .palms .fix-img {
-      opacity: 0;
+        opacity: 0;
     }
     .nice-title {
-      font-size: 25px;
+        font-size: 25px;
     }
     .pyramid-top img {
         width: 100%;
@@ -1591,20 +1460,19 @@ a.normal, a:active.normal, a:hover.normal, a:visited.normal {
         width: 90%;
     }
     #elx-registration .prices-table .table-row {
-      font-size: 16px;
+        font-size: 16px;
     }
     #elx-sponsors .type-sponsor {
-      margin: 20px 0px;
+        margin: 20px 0;
     }
     #elx-sponsors .type-sponsor.lanyard-sponsor img {
-      width: 50%;
-      margin: 30px 0px;
+        width: 50%;
+        margin: 30px 0;
     }
     #elx-footer .block {
-      padding: 15px 0px;
+        padding: 15px 0;
     }
 }
-
 .expired {
-  text-decoration: line-through;
+    text-decoration: line-through;
 }
