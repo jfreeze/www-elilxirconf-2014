@@ -1340,19 +1340,19 @@ table.tickets tr td.d {
     width: 70%;
 }
 #elx-sponsors .type-sponsor.gold-sponsor img {
-    width: 27%;
+    width: 37%;
 }
 #elx-sponsors .type-sponsor.silver-sponsor img {
-    width: 20%;
+    width: 30%;
 }
 #elx-sponsors .type-sponsor.bronze-sponsor img {
-    width: 15%;
+    width: 25%;
 }
 #elx-sponsors .type-sponsor.lanyard-sponsor img {
-    width: 15%;
+    width: 25%;
 }
 #elx-sponsors .type-sponsor.supporters-sponsor img {
-    width: 10%;
+    width: 20%;
 }
 #elx-speakers .trainers .row:after {
     content: "";
