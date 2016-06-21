@@ -433,6 +433,9 @@ textarea {
 table {
     border-collapse: collapse;
     border-spacing: 0;
+
+    table-layout: fixed;
+    /*word-wrap: break-word;*/
 }
 table.date tr td {
     padding-left: 20px;
@@ -1646,6 +1649,9 @@ a.normal, a:active.normal, a:hover.normal, a:visited.normal {
     }
     #elx-footer .block {
       padding: 15px 0;
+    }
+    table tr td {
+      font-size: 12px;
     }
 }
 
