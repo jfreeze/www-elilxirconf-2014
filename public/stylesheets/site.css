@@ -1337,13 +1337,13 @@ table.tickets tr td.d {
     display: inline-block;
 }
 #elx-sponsors .type-sponsor.platinum-sponsor img {
-    width: 70%;
+    width: 75%;
 }
 #elx-sponsors .type-sponsor.gold-sponsor img {
-    width: 37%;
+    width: 50%;
 }
 #elx-sponsors .type-sponsor.silver-sponsor img {
-    width: 30%;
+    width: 35%;
 }
 #elx-sponsors .type-sponsor.bronze-sponsor img {
     width: 25%;
