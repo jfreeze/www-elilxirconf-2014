@@ -1213,6 +1213,10 @@ table.tickets tr td.d {
     color: #785786;
     font-weight: 600;
 }
+.nice-paragraph a {
+    color: #ffffff;
+    font-weight: 600;
+}
 .nice-paragraph intro {
   font-align: justify;
 }
