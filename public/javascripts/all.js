@@ -20,15 +20,14 @@ $(document).ready(function() {
         });
     });
 
-    function setMT(){
-      var top = -($(this).scrollTop() * 0.2);
-      $(".pyramid-bottom, .event-information").css({
-          "margin-top":top + "px"
-      });
-    }
-    setMT();
     $(document).scroll(function() {
-        setMT();
+        var top = -($(this).scrollTop() * 0.1);
+
+        $(".pyramid-bottom, .event-information").css({
+            "-webkit-transform": "translateY(" + top + "px)",
+            "-ms-transform": "translateY(" + top + "px)",
+            "transform": "translateY(" + top + "px)"
+        });
     });
 
     $(".menu-button").click(function(e) {
