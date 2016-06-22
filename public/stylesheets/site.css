@@ -1213,6 +1213,12 @@ table.tickets tr td.d {
     color: #785786;
     font-weight: 600;
 }
+.nice-paragraph intro {
+  font-align: justify;
+}
+a.intro {
+  font-weight: 600;
+}
 #elx-event {
     position: relative;
     background-color: white;
@@ -1354,30 +1360,30 @@ table.tickets tr td.d {
 #elx-sponsors .type-sponsor.supporters-sponsor img {
     width: 20%;
 }
-#elx-speakers .trainers .row:after {
+#elx-knspeakers .trainers .row:after {
     content: "";
     width: 20px;
     height: 3px;
     display: block;
     margin: 20px auto;
 }
-#elx-speakers .trainers .row:last-child:after {
+#elx-knspeakers .trainers .row:last-child:after {
     display: none;
 }
-#elx-speakers {
+#elx-knspeakers {
     background-color: white;
     padding: 70px 0;
     border-bottom: 1px solid #ecf0f1;
 }
-#elx-speakers .speaker {
+#elx-knspeakers .speaker {
     display: inline-block;
     margin: 15px 0;
     text-align: center;
 }
-#elx-speakers .nice-title {
+#elx-knspeakers .nice-title {
     margin-bottom: 40px;
 }
-#elx-speakers .speaker-name {
+#elx-knspeakers .speaker-name {
     margin-top: 15px;
     font-size: 18px;
     font-weight: 700;
