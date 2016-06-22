@@ -26,9 +26,9 @@ $(document).ready(function() {
           "margin-top":top + "px"
       });
     }
-    setMT();
+    // setMT();
     $(document).scroll(function() {
-        setMT();
+        // setMT();
     });
 
     $(".menu-button").click(function(e) {
