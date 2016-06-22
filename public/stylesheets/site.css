@@ -1225,6 +1225,7 @@ a.intro {
     padding: 80px 0;
     border-top: 1px solid #ecf0f1;
     font-size: 20px;
+    z-index: 10;
 }
 #elx-registration {
     position: relative;
