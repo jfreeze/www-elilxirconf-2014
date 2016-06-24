@@ -1217,10 +1217,10 @@ table.tickets tr td.d {
     color: #ffffff;
     font-weight: 600;
 }
-.nice-paragraph intro {
+.nice-paragraph.intro {
   font-align: justify;
 }
-a.intro {
+.nice-paragraph > a.intro {
   color: #785786;
   font-weight: 600;
 }
@@ -1431,6 +1431,15 @@ a.intro {
     padding-bottom: 1em;
 }
 
+#disney-tickets h3 {
+    text-align: center;
+}
+#disney-tickets a {
+  padding: 0px 8px;
+  font-weight: 600;
+  color: white;
+  background-color: #785786;
+}
 /* Speakers */
 
 #speakers {
