@@ -5,6 +5,10 @@ get '/' do
   #redirect '/index.html'
 end
 
+get '/changelog' do
+  redirect "/?utm_source=changelog"
+end
+
 get '/training' do
   send_file File.join(settings.public_folder, '2016/speakers.html')
 end
