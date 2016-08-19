@@ -1366,6 +1366,13 @@ table.tickets tr td.d {
 #elx-sponsors .type-sponsor.supporters-sponsor img {
     width: 20%;
 }
+#elx-sponsors .special-thanks-subtitle {
+  font-size: 20px;
+}
+#elx-sponsors .special-thanks-paragraph {
+  font-size: 16px;
+  margin: 14px 0;
+}
 #elx-knspeakers .trainers .row:after {
     content: "";
     width: 20px;
